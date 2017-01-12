@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.bwandroid.gpstest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lon : "
+        android:textSize="20dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat  : "
+        android:textSize="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dis :"
+        android:textSize="20dp"
+        android:id="@+id/text_View5"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none"
+        android:textSize="20dp"
+        android:id="@+id/textview_Lat"
+        android:layout_below="@+id/textview_Lon"
+        android:layout_alignLeft="@+id/textview_Lon"
+        android:layout_alignStart="@+id/textview_Lon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time :"
+        android:textSize="20dp"
+        android:id="@+id/text_View6"
+        android:layout_below="@+id/text_View5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="speed :"
+        android:textSize="20dp"
+        android:id="@+id/text_View7"
+        android:layout_below="@+id/textview_Time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Reflash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_Re"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textview_Time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none"
+        android:textSize="20dp"
+        android:id="@+id/textview_Lon"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text_View6"
+        android:layout_toEndOf="@+id/text_View6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none"
+        android:textSize="20dp"
+        android:id="@+id/textview_Distance"
+        android:layout_above="@+id/text_View6"
+        android:layout_alignLeft="@+id/textview_Time"
+        android:layout_alignStart="@+id/textview_Time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none"
+        android:textSize="20dp"
+        android:id="@+id/textview_Time"
+        android:layout_below="@+id/textview_Distance"
+        android:layout_alignLeft="@+id/textview_Speed"
+        android:layout_alignStart="@+id/textview_Speed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none"
+        android:textSize="20dp"
+        android:id="@+id/textview_Speed"
+        android:layout_below="@+id/textview_Time"
+        android:layout_toRightOf="@+id/text_View7"
+        android:layout_toEndOf="@+id/text_View7"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:text="OOO"
+        android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_Re"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:id="@+id/textview_UserState" />
+
+
+</RelativeLayout>
